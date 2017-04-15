@@ -4,7 +4,7 @@
 
 Write a function in Javascript that having two integers `x1` and `x2` returns all the integers between them. If `x2` es lower than `x1` it should return -1
 
-- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/integer_number_range.js)
+- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/01-first-steps/js/integer_number_range.js)
 
 
 ### Multiplications table
@@ -24,14 +24,14 @@ Write a function that writes in the console the multiplication table (from 1 to 
 10  20  30  40  50  60  70  80  90  100
 ```
 
-- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/multiplications_table.js)
+- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/01-first-steps/js/multiplications_table.js)
 
 
 ### Multiplications table on demand
 
 Write a function that writes in the console the multiplication table (in one column) of any number passed as parameter
 
-- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/multiplications_table_on_demand.js)
+- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/01-first-steps/js/multiplications_table_on_demand.js)
 
 
 ### Calculation
@@ -44,28 +44,28 @@ Elements : 0 23 46 69 92 115 138 161 184 207 230 253 276 299 322 345 368
 Sum : 5313
 ```
 
-- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/calculation.js)
+- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/01-first-steps/js/calculation.js)
 
 
 ### `max()` function
 
 Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript.
 
-- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/max.js)
+- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/01-first-steps/js/max.js)
 
 
 ### `maxOfThree()` function
 
 Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 
-- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/max_of_three.js)
+- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/01-first-steps/js/max_of_three.js)
 
 
 ### `isVowel()` function
 
 Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 
-- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/is_vowel.js)
+- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/01-first-steps/js/is_vowel.js)
 
 
 ### Hexadecimal 
@@ -78,7 +78,7 @@ Writes a function that convert a hexadecimal color, "blue" for example "#0000FF"
 “rgb(0,255,0)”;
 ```
 
-- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/hexadecimal.js)
+- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/01-first-steps/js/hexadecimal.js)
 
 
 ### Hexadecimal enhanced
@@ -98,4 +98,4 @@ So the result can be (for these cases):
 “rgb(0,255,0)   verde”;
 ```
 
-- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/hexadecimal_enhanced.js)
+- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/01-first-steps/js/hexadecimal_enhanced.js)
