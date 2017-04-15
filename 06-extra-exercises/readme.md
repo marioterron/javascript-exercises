@@ -62,6 +62,8 @@ Define a function called ​`isString`​ that receives a value and return `true
    isString("asass") // true
 ```
 
+- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/06-extra-exercises/js/is-string.js)
+
 
 ## isBoolean
 
