@@ -11,6 +11,9 @@ Define a function called `calculator` that receives an operation and two numbers
    calculator("division",10,5) // 2
 ```
 
+- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/calculator.js)
+
+
 ## Calculator Plus
 
 Define a function called `calculator` that receives an operation and several numbers (can be 2 or 10 or whatever) returns the result of the operation applied to the values passed as parameters
@@ -22,6 +25,8 @@ Define a function called `calculator` that receives an operation and several num
    calculator("division",10,5) // 2
 ```
 
+- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/calculator-plus.js)
+
 
 ## getFullName
 
@@ -30,6 +35,9 @@ Define a function called ​`getFullName`​ that receives a `name` and a `surna
 ```javascript
    getFullName( "juanma", "garrido") // "Your full name is "juanma garrido""
 ```
+
+- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/get-full-name.js)
+
 
 ## isNumber
 
@@ -40,6 +48,9 @@ Define a function called ​`isNumber`​ that receives a value and return `true
    isNumber("3") // false
    isNumber("asass") // false
 ```
+
+- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/is-number.js)
+
 
 ## isString
 
@@ -62,6 +73,9 @@ Define a function called ​`isBoolean`​ that receives a value and return `tru
    isBoolean(true) // true
 ```
 
+- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/is-boolean.js)
+
+
 ## encodeWord
 
 Define a function called ​`encodeWord`​ that receives a string and return the codified version of that string replacing the following characters:
@@ -71,9 +85,11 @@ Define a function called ​`encodeWord`​ that receives a string and return th
 - `5` instead of `S`
 - `0` instead of `O`
 
+- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/encode-word.js)
+
+
 ## encodeWordPlus
 
 Improve the previous function to add a random number between 0 and 1000 every 7 characters 
 
-
----
+- [Code](https://github.com/MarioTerron/javascript-exercises-1/blob/master/js/encode-word-plus.js)
