@@ -4,7 +4,7 @@
 
 Write a function in Javascript that having two integers `x1` and `x2` returns all the integers between them. If `x2` es lower than `x1` it should return -1
 
-- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/01-first-steps/js/integer-number-range.js)
+- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/01-first-steps/js/integer-numbers-range.js)
 
 
 ### Multiplications table

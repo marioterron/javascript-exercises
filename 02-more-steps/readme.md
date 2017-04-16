@@ -18,7 +18,7 @@ Define a function sum() and a function multiply() that sums and multiplies (resp
 
 Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
 
-- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/02-more-steps/js/revese.js)
+- [Code](https://github.com/MarioTerron/javascript-exercises/blob/master/02-more-steps/js/reverse.js)
 
 
 ### `translate()`
