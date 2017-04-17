@@ -5,12 +5,46 @@
 // as a Javascript object.
 // Try it with something like charFreq("abbabcbdbabdbdbabababcbcbab").
 
-function charFreq (str) {
-  str = str.split('')
-  var frequency = {}
-  str.forEach(function (letter) {
-    if (frequency[letter]) frequency[letter]++
-    else frequency[letter] = 1
+// Way 1
+function charFreq (text) {
+  var frequencies = {}
+  var cleanedText = text.replace(/\W/g, '')
+  var aText = cleanedText.split('')
+  aText.forEach(function (currentChar) {
+    if (!frequencies[currentChar]) frequencies[currentChar] = 1
+    else frequencies[currentChar]++
   })
-  return frequency
+  return frequencies
+}
+
+// Way 2
+function charFreq (text) {
+  var frequencies = {}
+  var aText = text.match(/\w/gi)
+  aText.forEach(function (currentChar) {
+    if (!frequencies[currentChar]) frequencies[currentChar] = 1
+    else frequencies[currentChar]++
+  })
+  return frequencies
+}
+
+// Way 3
+function charFreq (text) {
+  return text
+          .match(/\w/gi)
+          .reduce(function (oFreq, currentChar) {
+            if (!oFreq[currentChar]) oFreq[currentChar] = 1
+            else oFreq[currentChar]++
+            return oFreq
+          }, {})
+}
+
+// Way 4
+function charFreq (text) {
+  return text
+          .match(/\w/gi)
+          .reduce(function (oFreq, char) {
+            oFreq[char] = oFreq[char] ? ++oFreq[char] : 1
+            return oFreq
+          }, {})
 }
