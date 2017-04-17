@@ -13,9 +13,9 @@ Go the the [exercises](https://github.com/MarioTerron/javascript-exercises/tree/
 
 ### Javascript Challenge 1** Extra
 
-Go the the [exercises](https://github.com/MarioTerron/javascript-exercises/tree/master/02-more-steps).
+Go the the [exercises](https://github.com/MarioTerron/javascript-exercises/tree/master/06-extra-exercises).
 
 
 ### Javascript Challenge 2
 
-Go the the [exercises](https://github.com/MarioTerron/javascript-exercises/tree/master/06-extra-exercises).
+Go the the [exercises](https://github.com/MarioTerron/javascript-exercises/tree/master/02-more-steps).
