@@ -2,17 +2,15 @@
 // That is, double every consonant and place an occurrence of "o" in between. For
 // example, translate("this is fun") should return the string "tothohisos isos fofunon".
 
-// Check if is vowel
+// Way 1
 function isVowel (char) {
   return 'aeiou'.indexOf(char) !== -1
 }
 
-// Check if is space
 function isSpace (char) {
   return char === ' '
 }
 
-// Way 1
 function translate (text) {
   text = text.toLowerCase().split('')
   var newText = []
@@ -24,6 +22,14 @@ function translate (text) {
 }
 
 // Way 2
+function isVowel (char) {
+  return 'aeiou'.indexOf(char) !== -1
+}
+
+function isSpace (char) {
+  return char === ' '
+}
+
 function translate (text) {
   text = text.toLowerCase().split('')
   var newText = []
@@ -33,3 +39,9 @@ function translate (text) {
   })
   return newText.join('')
 }
+
+
+// Way 3
+var translate = text => text.replace(/([b-df-hj-np-tv-xz])/g, "$1o$1")
+
+
