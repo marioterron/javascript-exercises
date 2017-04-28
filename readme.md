@@ -2,7 +2,7 @@
 
 ## Description ##
 
-This repository contains exercises made in the [Skylab Coders Academy](http://www.skylabcoders.com/es/)
+This repository contains JS exercises made in the [Skylab Coders Academy](http://www.skylabcoders.com/es/)
 Full Stack Web Development Bootcamp.
 
 
